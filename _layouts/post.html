@@ -1,7 +1,22 @@
 ---
 layout: default
+comments: true
 ---
+<head>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@muratckaracabey">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:image:src" content="{{ site.avatar }}">
 
+{% if page.description %}
+  <meta name="twitter:description"
+    content="{{ page.meta_description }}">
+{% else %}
+  <meta name="twitter:description"
+    content="{{ page.content | strip_html | xml_escape
+      | truncate: 200 }}">
+{% endif %}
+</head>
 <article class="post">
   <h1>{{ page.title }}</h1>
 
@@ -13,5 +28,8 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  {% include disqus.html %}
 </article>
+
+{% if site.disqus %}
+  {% include disqus2.html %}
+{% endif %}
