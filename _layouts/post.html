@@ -7,7 +7,19 @@ comments: true
 <meta name="twitter:site" content="@muratckaracabey">
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:image:src" content="{{ site.avatar }}">
-
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
 {% if page.description %}
   <meta name="twitter:description"
     content="{{ page.meta_description }}">
