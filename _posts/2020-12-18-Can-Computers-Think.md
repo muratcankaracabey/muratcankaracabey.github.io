@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Can Computers Think?
-comments: true
+comments: false
 ---
 *This is the essay that I've written two years ago for my admission to Informatics department of Technical University of Munich. There were a couple of predefined topics to write about and I picked the question on the title since it had seemed very interesting for me. I tried to summarize the discussion around the question "Can Computers Think?" by obeying the 1000 words quota and finally come up with a conclusion. Since it was a result of a few weeks research, it might not be perfect but I still believe that this essay was able to summarize most of the directions one can follow while investigating the thinking capability of computers. Enjoy it.*
 

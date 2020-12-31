@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Working environment tips for development on AWS Instances
-comments: true
+comments: false
 ---
 
 This post includes some tips and tricks for coding using a remote instance such as AWS EC2. It includes the some of the know-how that I could gather while I was developing deep learning models at Design AI. 
